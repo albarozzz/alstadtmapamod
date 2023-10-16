@@ -2,10 +2,9 @@ name: Create release
 
 on:
   workflow_dispatch: {}
-  release:
-    branches: [master]
-    types:
-      - created
+  push:
+    tags:
+      - v[0-9]+.*
 
 jobs:
   build:
@@ -18,7 +17,7 @@ jobs:
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
       - name: Zip Folder
-        run: zip -r -x "AlstadtMapamod ${RELEASE_VERSION}.zip" .
+        run: zip -r "AlstadtMapamod ${RELEASE_VERSION}.zip" .
 
       - name: Release
         uses: softprops/action-gh-release@v1
