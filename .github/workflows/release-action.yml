@@ -2,6 +2,7 @@ name: Create release
 
 on:
   release:
+    branches: [master]
     types:
       - created
 
