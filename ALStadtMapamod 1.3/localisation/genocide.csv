@@ -1,0 +1,12 @@
+burn_down_capital_title;Massacre enemy capital;;;;;;;;;x;;;
+burn_down_capital_desc;"By massacre we shall mean the intentional killing by political actors of a significant number of relatively defenseless people, the motives for massacre need not be rational in order for the killings to be intentional. Mass killings can be carried out for various reasons, including a response to war.";;;;;;;;;x;;;
+repression;Repression;;;;;;;;;x;;;
+repression_desc;;;;;;;;;;x;;;
+war_criminal;War criminal;;;;;;;;;x;;;
+war_criminal_desc;A war crime is a violation of the laws of war that gives rise to individual criminal responsibility for actions by the combatants, such as intentionally killing civilians or intentionally killing prisoners of war;;;;;;;;;x;;;
+EVTNAME99401;$COUNTRY_ADJ$ Massacre;;;;;;;;;x;;;
+EVTDESC99401;This war have left us with one of the most tragic moments of our country's history, maybe we should plan our revenge and teach them who we are.;;;;;;;;;x;;;
+EVTOPTA99401;They will pay for this.;;;;;;;;;x;;;
+EVTNAME99402;An act of dishonor;;;;;;;;;x;;;
+EVTDESC99402;The $FROMCOUNTRY_ADJ$ troops has committed a systematic extermination to our people and seizing their goods to the few who survived, we can't tolerate this.;;;;;;;;;x;;;
+EVTOPTA99402;Disgraceful.;;;;;;;;;x;;;

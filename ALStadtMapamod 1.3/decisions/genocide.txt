@@ -1,0 +1,40 @@
+political_decisions = {
+	burn_down_capital = {
+		potential = {
+			war = yes
+		}
+		
+		allow = { 
+			NOT = { has_country_modifier = war_criminal } 
+			war_countries = {
+				war_with = THIS
+				capital_scope = {
+					controlled_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = war_criminal
+				duration = 365
+			}
+			badboy = 2
+			any_country = {
+				limit = {
+					war_with = THIS
+					capital_scope = {
+						controlled_by = THIS
+					}
+				}
+				capital_scope = {
+					add_province_modifier = {
+						name = repression
+						duration = 80
+					}
+				}
+				country_event = 99402
+			}
+		}	
+	}
+}

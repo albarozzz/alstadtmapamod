@@ -1,0 +1,46 @@
+country_event = {
+	id = 99401
+	title = "EVTNAME99401"
+	desc = "EVTDESC99401"
+	picture = "Unite"
+	allow_multiple_instances = yes
+	
+	trigger = {
+		capital_scope = {
+            has_province_modifier = repression
+            controlled_by = THIS
+        }
+	}
+	
+	option = {
+		name = "EVTOPTA99401"
+        capital_scope = {
+		    remove_province_modifier = repression
+            any_pop = {
+                dominant_issue = {
+                    value = jingoism
+                    factor = 0.1
+                }
+            }
+        }
+        
+	}
+}
+
+country_event = {
+	id = 99402
+	title = "EVTNAME99402"
+	desc = "EVTDESC99402"
+	picture = "Unite"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	option = {
+		name = "EVTOPTA99402"
+        casus_belli = {
+            target = FROM
+            type = humiliate
+            months = 48
+        }
+	}
+}

@@ -1,0 +1,13 @@
+border_policy;Border Policy;;;;;;;;;;;;;
+closed_borders;Closed Borders;;;;;;;;;;;;;
+closed_borders_l;Closed Borders;;;;;;;;;;;;;
+closed_borders_desc;People aren't allowed in or out of our country. The effectiveness of this policy is based on our administration and military spending. Some people might still emigrate illegally, either by crossing the border or hiding in ships. The veil of secrecy that shrouds our country makes other nations mistrust us.;;;;;;;;;;;;;
+movement_closed_borders;Movement for the Protection of the Country;;;;;;;;;;;;;
+quota_immigration;Immigration Quotas;;;;;;;;;;;;;
+quota_immigration_l;Immigration Quotas;;;;;;;;;;;;;
+quota_immigration_desc;Foreign nationals are allowed to immigrate to our country, as long as they have a literacy above 60% and aren't citizens of countries that were recently or are currently at war with our country. There are no restrictions for emigration.;;;;;;;;;;;;;
+movement_quota_immigration;Movement for Immigration Quotas;;;;;;;;;;;;;
+open_borders;Open Borders;;;;;;;;;;;;;
+open_borders_l;Open Borders;;;;;;;;;;;;;
+open_borders_desc;Our country is completly open for immigration and emigration, either by deliberate choice or because of the lack of appropriate border controls.;;;;;;;;;;;;;
+movement_open_borders;Pro Immigration Movement;;;;;;;;;;;;;
